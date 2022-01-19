@@ -1,0 +1,115 @@
+div.event-01
+{
+	background-image: url('../Content/Images/Robots.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 450px;
+}
+
+.textOverlay-Right 
+{
+   position: absolute;
+   top: 0%;
+   left: 70%;
+   width: 30%;
+   height:100%;
+   border-bottom-right-radius: 25px;
+   background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+   background: rgba(0, 0, 0, 0.8);
+}
+
+.textOverlay-Left 
+{
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 10%;
+   height:30%;
+   border-bottom-right-radius: 25px;
+   background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+   background: rgba(0, 0, 0, 0.8);
+}
+
+div.container-fluid
+{
+    position: relative;
+
+}
+
+div.event-02
+{
+	background-image: url('../Content/Images/Robots.jpg');
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 450px;
+}
+
+div.event-03
+{
+	background-image: url('../Content/Images/Robots.jpg');
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 450px;
+}
+
+div.event-04
+{
+	background-image: url('../Content/Images/Robots.jpg');
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 450px;
+}
+
+div.event-05
+{
+	background-image: url('../Content/Images/Robots.jpg');
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 450px;
+}
+
+div.event-06
+{
+	background-image: url('../Content/Images/Robots.jpg');
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 450px;
+}
+
+div.event-07
+{
+	background-image: url('../Content/Images/Robots.jpg');
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	min-height: 450px;
+}
+
+div.container
+{
+    position: relative;
+}
+
+.textOverlay 
+{
+   position: absolute;
+   top: 50%;
+   left: 0%;
+   width: 100%;
+   height:50%;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+   background: rgba(0, 0, 0, 0.8);
+}
+
+ .br {
+            display: block;
+            margin-bottom: -.4em;
+        }
