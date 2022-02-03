@@ -13,4 +13,33 @@ button.W30
   border-radius: 25px;
 }
 
+@media all and (max-width: 768px) {
+
+    img.ContactUsCircle
+    {
+        border-radius: 50%;
+        width: 80%;
+        height: 30vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media all and (min-width: 768px) {
+
+    img.ContactUsCircle
+    {
+        border-radius: 50%;
+        width: 80%;
+        height: 12vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
 

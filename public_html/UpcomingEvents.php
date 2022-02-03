@@ -29,10 +29,10 @@
 		?>
 
 	<div class="row justify-content-center">
-		<div class="col-lg-10">
-			<div class="col-lg-12 pb-5">
+		<div class="col-lg-10 mobileModeHideEvent01">
+			<div class="col-lg-12 col-md-10 pb-5">
 				<div class="event-01 Rounded container-fluid">
-					<div class="textOverlay-Left">
+					<div class="textOverlay-Left dissapear">
 							<h8 class="VW White Center">
 								<span class="br bold">
 									<b>Aug
@@ -68,6 +68,31 @@
 	
 		<div class="col-lg-10">
 			<div class="row">
+				<div class="col-lg-4 pb-5 mobileModeShowEvent01">
+					<div class="event-02 Rounded container">
+						<div class="textOverlay">
+							<h8 class="VW White ps-4">
+								<span class="br">
+									Game Festival 
+								</span>
+								<span class="br">
+									Sept 1st 2019 @11am 
+								</span>
+								<span class="br">
+									Frey Student Center
+								</span>
+							</h8>
+							
+							<br>
+								
+							<p class="VW White ps-4">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel risus massa. Nulla efficitur lorem at ipsum condimentum.
+							</p>
+						</div>
+					</div>
+				</div>
+
+
 				<div class="col-lg-4 pb-5">
 					<div class="event-02 Rounded container">
 						<div class="textOverlay">
