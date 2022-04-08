@@ -1,0 +1,221 @@
+div.popup-overlay-container {
+	background-color: rgba(69, 142, 218, 0.8);
+}
+
+div.header-main {
+	color: #2891FF;
+	font-size: 6.8vw;
+	font-weight: bold;
+}
+
+/*
+	zigzag layout css
+*/
+
+img.zigzag-image {
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+div.zigzag-image 
+{
+	width: 100%;
+	height: 60vw;
+}
+
+div.zigzag-content {
+	font-size: 4vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	margin-top: 2vw;
+	text-align: center;
+}
+
+/*
+	sidebar layout css
+*/
+
+div.sidebar-event-container {
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+div.sidebar-title {
+	font-size: 7vw;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.sidebar-content {
+	font-size: 5vw;
+	color: white;
+	text-align: center;
+}
+
+div.sidebar-image 
+{
+	width: 100%;
+	height: 60vw;
+}
+
+img.sidebar-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+@media (min-width: 576px) 
+{
+	div.header-main {
+		font-size: 6vw;
+	}
+
+	div.zigzag-content {
+		font-size: 3vw;
+	}
+
+	div.zigzag-image {
+		height: 60vw;
+	}
+
+	div.sidebar-title {
+		font-size: 8vw;
+	}
+
+	div.sidebar-content {
+		font-size: 6vw;
+	}
+
+	div.sidebar-image {
+		height: 60vw;
+	}
+
+	div.overlay-image {
+		height: 40vw;
+	}
+
+	div.overlay-title {
+		font-size: 3vw;
+	}
+
+	div.overlay-info {
+		font-size: 1.8vw;
+	}
+
+	div.overlay-content {
+		font-size: 2vw;
+	}
+
+	div.sidebar-link-text {
+		font-size: 6vw;
+	}
+}
+
+@media (min-width: 768px) 
+{
+	div.header-main {
+		font-size: 2.6vw;
+	}
+
+	div.zigzag-content {
+		font-size: 1.6vw;
+		text-align: left;
+		margin-top: 0vw;
+		margin-left: 0vw;
+		margin-right: 0vw;
+	}
+
+	div.zigzag-image {
+		height: 15vw;
+	}
+
+	div.sidebar-title {
+		font-size: 1.2vw;
+	}
+
+	div.sidebar-content {
+		font-size: 1.2vw;
+	}
+
+	div.sidebar-image {
+		height: 9vw;
+	}
+
+	div.overlay-image {
+		height: 40vw;
+	}
+
+	div.overlay-title {
+		font-size: 3vw;
+	}
+
+	div.overlay-info {
+		font-size: 1.8vw;
+	}
+
+	div.overlay-content {
+		font-size: 2vw;
+	}
+
+	div.sidebar-link-text {
+		font-size: 1.4vw;
+	}
+}
+
+@media (min-width: 992px) 
+{
+	div.header-main {
+		font-size: 2.6vw;
+	}
+
+	div.zigzag-content {
+		font-size: 1.6vw;
+	}
+
+	div.zigzag-image {
+		height: 15vw;
+	}
+
+	div.sidebar-title {
+		font-size: 1.4vw;
+	}
+
+	div.sidebar-content {
+		font-size: 1.2vw;
+	}
+
+	div.sidebar-image {
+		height: 9vw;
+	}
+
+	div.overlay-image {
+		height: 30vw;
+	}
+
+	div.overlay-title {
+		font-size: 2.5vw;
+	}
+
+	div.overlay-info {
+		font-size: 1.3vw;
+	}
+
+	div.overlay-content {
+		font-size: 1.5vw;
+	}
+
+	div.sidebar-link-text {
+		font-size: 1.4vw;
+	}
+}
+
+
+
+

@@ -1,0 +1,168 @@
+div.header-main {
+    font-size: 8vw;
+    font-weight:bold;
+    width: 100%;
+    text-align:center;
+}
+
+div.header-secondary {
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
+    margin-bottom:3vw;
+}
+
+div.contact-title {
+    font-size: 5vw;
+    color: white;
+    margin-bottom: -1.5vw;
+}
+
+div.contact-name {
+    font-size: 5vw;
+    color: white;
+    font-weight:bold;
+}
+
+div.contact-image {
+    height: 24vw;
+    width: 45%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.contact-container {
+    text-align: center;
+    width: 100%;
+    margin-top:.5vw;
+    margin-bottom:.5vw;
+}
+
+img.contact-image {
+    width: 100%;
+    height: 100%;   
+}
+
+div.contact-email {
+    font-size: 4vw;
+    color: white;
+}
+
+input.fill-field {
+    height: 30vw;
+}
+
+@media (min-width: 576px) {
+
+    div.header-main {
+        font-size: 2.6vw;
+    }
+
+    div.contact-image {
+        height: 24vw;
+        width: 45%;
+    }
+
+    div.contact-title {
+        font-size: 3vw;
+    }
+
+    div.contact-name {
+        font-size: 3vw;  
+    }
+
+    div.header-secondary {
+        font-size: 3vw;
+    }
+
+    div.contact-email {
+        font-size: 2vw;
+    }
+
+    input.fill-field {
+        height: 30vw;
+    }
+}
+
+@media (min-width: 768px) {
+
+    div.header-main {
+        font-size: 2.6vw;
+    }
+
+    div.contact-image {
+        height: 8vw;
+        width: 55%;
+    }
+
+    div.contact-title {
+        font-size: 1.6vw;
+        margin-bottom: -.8vw;
+    }
+
+    div.header-secondary {
+        font-size: 1.6vw;
+    }
+
+    div.contact-name {
+        font-size: 1.6vw;
+    }
+
+    div.contact-email {
+        font-size: 1.3vw;
+    }
+
+    div.contact-container {
+        text-align: center;
+        width: 100%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    input.fill-field {
+        height: 10vw;
+    }
+}
+
+@media (min-width: 992px) {
+
+    div.header-main 
+    {
+        font-size: 3.5vw;
+    }
+
+    div.contact-image {
+        height: 8vw;
+        width: 55%;
+    }
+
+    div.contact-title {
+        font-size: 1.6vw;
+        margin-bottom: -.8vw;
+    }
+
+    div.header-secondary {
+        font-size: 1.6vw;
+    }
+
+    div.contact-name {
+        font-size: 1.6vw;
+    }
+
+    div.contact-email {
+        font-size: 1.3vw;
+    }
+
+    input.fill-field {
+        height: 30vw;
+    }
+}
+
+
+
+
+
+

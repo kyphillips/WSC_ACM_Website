@@ -69,55 +69,56 @@ div.container-fluid
 div.event-02
 {
 	background-image: url('../Content/Images/Robots.jpg');
-	background-size: 200%;
+	background-size: 500px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	min-height: 450px;
+	min-height: 425px;
+
 }
 
 div.event-03
 {
 	background-image: url('../Content/Images/Robots.jpg');
-	background-size: 200%;
+	background-size: 500px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	min-height: 450px;
+	min-height: 425px;
 }
 
 div.event-04
 {
 	background-image: url('../Content/Images/Robots.jpg');
-	background-size: 200%;
+	background-size: 500px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	min-height: 450px;
+	min-height: 425px;
 }
 
 div.event-05
 {
 	background-image: url('../Content/Images/Robots.jpg');
-	background-size: 200%;
+	background-size: 500px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	min-height: 450px;
+	min-height: 425px;
 }
 
 div.event-06
 {
 	background-image: url('../Content/Images/Robots.jpg');
-	background-size: 200%;
+	background-size: 500px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	min-height: 450px;
+	min-height: 425px;
 }
 
 div.event-07
 {
 	background-image: url('../Content/Images/Robots.jpg');
-	background-size: 200%;
+	background-size: 500px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	min-height: 450px;
+	min-height: 425px;
 }
 
 
@@ -126,34 +127,19 @@ div.container
     position: relative;
 }
 
-@media all and (min-width: 330px) {
+@media all and (min-width: 320px) {
 	.textOverlay 
 	{
 	   position: absolute;
-	   top: 50%;
+	   top: 60%;
 	   left: 0%;
 	   width: 100%;
-	   height:50%;
-	   border-bottom-left-radius: 25px;
-	   border-bottom-right-radius: 25px;
+	   height:40%;
 	   background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
-	   background: rgba(0, 0, 0, 0.8);
+	   background: rgba(0, 0, 0, 1);
 	}
 }
 
-@media all and (max-width: 330px) {
-	
-	.textOverlay 
-	{
-	   position: absolute;
-	   top: 50%;
-	   left: 0%;
-	   width: 100%;
-	   height:43%;
-	   background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
-	   background: rgba(0, 0, 0, 0.8);
-	}
-}
 
  .br {
             display: block;

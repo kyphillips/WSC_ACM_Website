@@ -1,0 +1,142 @@
+input, input:focus, textarea, textarea:focus {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 0 0.5pt grey;
+    outline: none;
+    transition: .1s;
+}
+
+div.DarkBlueRounded {
+    border-radius: 25px;
+    background-color: #458EDA;
+    width: 100%;
+    padding: 1vw;
+}
+
+div.LightBlueRounded {
+    border-radius: 25px;
+    background: #EDF5FF;
+    padding: 20px;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: #458EDA;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+div.popup-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+div.popup-overlay-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    border-top-right-radius: 25px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    padding-bottom: 1vw;
+}
+
+div.overlay-image {
+    width: 100%;
+    height: 50vw;
+}
+
+div.overlay-title {
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.overlay-info {
+    font-size: 3.5vw;
+    color: white;
+    text-align: center;
+    margin-top: -.7vw;
+}
+
+div.overlay-content {
+    border-top-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-size: 4.5vw;
+    color: white;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+img.overlay-image {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+a.sidebar-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.sidebar-link {
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(50, 50, 50, 0.0);
+    color: rgba(255, 255, 255, 0.0);
+}
+
+div.sidebar-link:hover {
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(50, 50, 50, 0.5);
+    color: rgba(255, 255, 255, 1.0);
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+div.sidebar-link-text {
+    font-size: 6vw;
+    text-align: center;
+    font-weight: bold;
+    top: 40%;
+    width: 100%;
+    position: absolute;
+}
+
+div.sidebar-link-text:hover {
+    color: rgba(255, 255, 255, 1.0);
+}

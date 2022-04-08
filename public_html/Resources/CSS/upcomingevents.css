@@ -1,0 +1,285 @@
+div.event-main-image {
+	width: 100%;
+	height: 70vw;
+	border-radius: 25px;
+	position: relative;
+	overflow: hidden;
+}
+
+div.event-main-overlay-content {
+	background-color: black;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 50%;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+	background: rgba(0, 0, 0, 0.7);
+}
+
+div.event-text-container
+{
+	margin-left:1vw;
+	margin-right:.5vw;
+}
+
+div.event-title {
+	font-size: 4vw;
+	color: white;
+	font-weight: bold;
+	margin-bottom: -1.3vw;
+}
+
+div.event-info {
+	font-size: 4vw;
+	color: white;
+	margin-top: -1vw;
+}
+
+div.event-content {
+	font-size: 3.4vw;
+	color: white;
+	margin-top: 1vw;
+}
+
+div.event-image {
+	width: 100%;
+	height: 70vw;
+	border-radius: 25px;
+	position: relative;
+	overflow: hidden;
+}
+
+div.event-overlay {
+	background-color: black;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 50%;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+	background: rgba(0, 0, 0, 0.7);
+}
+div.event-container {
+	margin-top: 2vw;
+}
+
+img.event-image {
+	width: 100%;
+	height: 100%;
+}
+
+div.long {
+	display: none;
+}
+
+div.short {
+	display: block;
+}
+
+@media (min-width: 576px) 
+{
+	div.event-title {
+		font-size: 4vw;
+	}
+
+	div.event-info {
+		font-size: 4vw;	
+	}
+
+	div.event-content {
+		font-size: 3vw;
+	}
+
+	div.event-image {
+		height: 60vw;
+	}
+
+	div.event-main-image {
+		height: 60vw;
+	}
+
+	div.long {
+		display: none;
+	}
+
+	div.short {
+		display: block;
+	}
+
+	div.overlay-image {
+		height: 40vw;
+	}
+
+	div.overlay-title {
+		font-size: 3vw;
+	}
+
+	div.overlay-info {
+		font-size: 1.8vw;
+	}
+
+	div.overlay-content {
+		font-size: 2vw;
+	}
+
+	div.sidebar-link-text {
+		font-size: 6vw;
+	}
+}
+
+@media (min-width: 768px) {
+	div.long {
+	display: block;
+	}
+
+	div.short {
+		display: none;
+	}
+
+	div.event-title {
+		font-size: 1.8vw;
+		margin-bottom: -.6vw;
+	}
+
+	div.event-info {
+		font-size: 1.4vw;
+		margin-top: -.4vw
+	}
+
+	div.event-content {
+		font-size: 1.2vw;
+		margin-top: 1vw;
+	}
+
+	div.event-main-image {
+		height: 35vw;
+	}
+
+	div.event-image {
+		height: 26vw;
+	}
+
+	div.event-main-overlay-content {
+		padding-top: 2vw;
+		background-color: black;
+		position: absolute;
+		top: 0%;
+		left: 70%;
+		width: 30%;
+		height: 100%;
+		background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+		background: rgba(0, 0, 0, 0.7);
+	}
+
+	div.event-main-overlay-date {
+		padding-left: 2vw;
+		background-color: black;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 13%;
+		height: 35%;
+		background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+		background: rgba(0, 0, 0, 0.7);
+		color: white;
+		font-size: 4vw;
+	}
+
+	div.overlay-image {
+		height: 40vw;
+	}
+
+	div.overlay-title {
+		font-size: 3vw;
+	}
+
+	div.overlay-info {
+		font-size: 1.8vw;
+	}
+
+	div.overlay-content {
+		font-size: 2vw;
+	}
+
+	div.sidebar-link-text {
+		font-size: 1.4vw;
+	}
+}
+
+@media (min-width: 992px) {
+	div.event-title {
+		font-size: 1.8vw;
+		
+	}
+
+	div.event-info {
+		font-size: 1.4vw;
+		
+	}
+
+	div.event-content {
+		font-size: 1.2vw;
+		margin-top: 1vw;
+	}
+
+	div.event-image {
+		height: 26vw;
+	}
+
+	div.event-main-image {
+		height: 35vw;
+	}
+
+	div.event-main-overlay-content {
+		padding-top:2vw;
+		background-color: black;
+		position: absolute;
+		top: 0%;
+		left: 70%;
+		width: 30%;
+		height:100%;
+		background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+		background: rgba(0, 0, 0, 0.7);
+	}
+
+	div.event-main-overlay-date {
+		padding-left:2vw;
+		background-color: black;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 13%;
+		height: 35%;
+		background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+		background: rgba(0, 0, 0, 0.7);
+		color: white;
+		font-size: 4vw;
+	}
+
+	div.short {
+		display: none;
+	}
+
+	div.long {
+		display: block;
+	}
+
+	div.overlay-image {
+		height: 30vw;
+	}
+
+	div.overlay-title {
+		font-size: 2.2vw;
+	}
+
+	div.overlay-info {
+		font-size: 1vw;
+	}
+
+	div.overlay-content {
+		font-size: 1.1vw;
+	}
+
+	div.sidebar-link-text {
+		font-size: 1.4vw;
+	}
+}

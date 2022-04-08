@@ -1,0 +1,140 @@
+div.header-main 
+{
+	color: #2891FF;
+	font-size: 7vw;
+	text-align: center;
+	font-weight:bold;
+	margin-top:2vw;
+	margin-bottom:2vw;
+}
+
+div.header-secondary 
+{
+	color: #2891FF;
+	font-size: 6vw;
+	text-align: center;
+}
+
+div.vertical-content {
+	font-size: 4vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	text-align: center;
+}
+
+div.vertical-image
+{
+	width: 100%;
+	height: 75vw;
+}
+
+img.vertical-image {
+	width: 100%;
+	height: 100%;
+}
+
+div.zigzag-image {
+	width: 100%;
+	height: 75vw;
+}
+
+img.zigzag-image {
+	width: 100%;
+	height: 100%;
+}
+
+div.zigzag-content {
+	font-size: 4vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	text-align: center;
+}
+
+
+@media (min-width: 576px) 
+{
+
+	div.header-secondary {
+		font-size: 5vw;
+	}
+
+	div.vertical-image {
+		width: 100%;
+		height: 75vw;
+	}
+
+	div.vertical-content {
+		font-size: 3vw;
+	}
+
+	div.zigzag-image {
+		width: 100%;
+		height: 75vw;
+	}
+
+	div.zigzag-content {
+		font-size: 3vw;
+	}
+
+}
+
+@media (min-width: 768px) 
+{
+
+	div.header-secondary {
+		font-size: 4vw;
+	}
+
+	div.vertical-image {
+		width: 100%;
+		height: 50vw;
+	}
+
+	div.vertical-content {
+		font-size: 2vw;
+		margin-left: 0vw;
+		margin-right: 0vw;
+	}
+
+	div.zigzag-image {
+		width: 100%;
+		height: 75vw;
+	}
+
+	div.zigzag-content {
+		font-size: 2vw;
+	}
+
+
+}
+
+@media (min-width: 992px) 
+{
+	div.header-secondary {
+		font-size: 2vw;
+	}
+
+	div.vertical-image {
+		width: 100%;
+		height: 20vw;
+	}
+
+	div.vertical-content {
+		font-size: 1.1vw;
+	}
+
+	div.zigzag-image {
+		width: 100%;
+		height: 30vw;
+	}
+
+	div.zigzag-content {
+		font-size: 1.4vw;
+		text-align: left;
+	}
+
+}
+
+
+
+
