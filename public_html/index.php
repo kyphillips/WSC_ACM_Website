@@ -7,12 +7,11 @@
 		<!--misc.css contains miscelanious css that doesn't fit into text, Content, images, etc'-->
         <link rel="stylesheet" href="Resources/CSS/shared.css" />
 		<link rel="stylesheet" href="Resources/CSS/misc.css">
+        <link rel="stylesheet" href="Resources/Landingpage/CSS/LandingVideo/LandingVideo.css" />
 		<link rel="stylesheet" href="Resources/CSS/index.css">
         
 
-		<link rel="stylesheet" href="Resources/Landingpage/CSS/LandingVideo/LandingVideo.css">
-
-		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		
 
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
