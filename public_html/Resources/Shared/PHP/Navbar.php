@@ -1,7 +1,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light opaque">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">
-					<img src="Resources/Images/ACM_LandingLogo.jpg" width="30" height="30" alt="">
+					<img src="resources/shared/Images/NavbarLogo.png" width="30" height="30" alt="">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>

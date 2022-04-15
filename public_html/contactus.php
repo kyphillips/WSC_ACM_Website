@@ -19,15 +19,13 @@
 
 		<!-- Option 1: Bootstrap Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
 	</head>
 
 	<body>
 
 		<?php
 			include 'Resources/Shared/PHP/Navbar.php';
-		?>
+        ?>
 
 	<div class="row g-0 justify-content-center ">
 		
@@ -45,15 +43,15 @@
 									</div>
 
 									<div class="contact-name">
-										Timothy Garvin
+										Steven Hornberg
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\headshot02.jpg" />
+										<img class="contact-image" src="Resources\Images\officer1.jpg" />
 									</div>
 
 									<div class="contact-email">
-										sagebr001@wsc.edu
+										sthorn02@wsc.edu
 									</div>
 								</div>
 							</div>
@@ -61,61 +59,19 @@
 							<div class="col-lg-5 col-md-5 col-10">
 								<div class="contact-container">
 									<div class="contact-title">
-										President
+										Vice President
 									</div>
 
 									<div class="contact-name">
-										Saron Gebre
+										Kota Gullicksen
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\headshot01.jpg" />
+										<img class="contact-image" src="Resources\Images\officer5.png" />
 									</div>
 
 									<div class="contact-email">
-										sagebr001@wsc.edu
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row g-1 justify-content-center">
-							<div class="col-lg-5 col-md-5 col-10">
-								<div class="contact-container">
-									<div class="contact-title">
-										President
-									</div>
-
-									<div class="contact-name">
-										Timothy Garvin
-									</div>
-
-									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\headshot03.jpg" />
-									</div>
-
-									<div class="contact-email">
-										sagebr001@wsc.edu
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-5 col-md-5 col-10">
-								<div class="contact-container">
-									<div class="contact-title">
-										President
-									</div>
-
-									<div class="contact-name">
-										Saron Gebre
-									</div>
-
-									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\headshot01.jpg" />
-									</div>
-
-									<div class="contact-email">
-										sagebr001@wsc.edu
+										kogull01@wsc.edu
 									</div>
 								</div>
 							</div>
@@ -125,19 +81,19 @@
 							<div class="col-lg-5 col-md-5 col-10">
 								<div class="contact-container">
 									<div class="contact-title">
-										President
+										Secretary
 									</div>
 
 									<div class="contact-name">
-										Timothy Garvin
+										Kyla Phillips
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\headshot02.jpg" />
+										<img class="contact-image" src="Resources\Images\officer3.jpg" />
 									</div>
 
 									<div class="contact-email">
-										sagebr001@wsc.edu
+										kyphil02@wsc.edu
 									</div>
 								</div>
 							</div>
@@ -145,19 +101,61 @@
 							<div class="col-lg-5 col-md-5 col-10">
 								<div class="contact-container">
 									<div class="contact-title">
-										President
+										Treasurer 
 									</div>
 
 									<div class="contact-name">
-										Saron Gebre
+										Thomas Marxsen
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\headshot03.jpg" />
+										<img class="contact-image" src="Resources\Images\officer4.jpg" />
 									</div>
 
 									<div class="contact-email">
-										sagebr001@wsc.edu
+										thmarx01@wsc.edu
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row g-1 justify-content-center">
+							<div class="col-lg-5 col-md-5 col-10">
+								<div class="contact-container">
+									<div class="contact-title">
+										Recruitment Officer
+									</div>
+
+									<div class="contact-name">
+										Open Position
+									</div>
+
+									<div class="contact-image">
+										<img class="contact-image" src="Resources\Images\no-pic.png" />
+									</div>
+
+									<div class="contact-email">
+										example@wsc.edu
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-5 col-md-5 col-10">
+								<div class="contact-container">
+									<div class="contact-title">
+										Advisor
+									</div>
+
+									<div class="contact-name">
+										Debbie Johnson
+									</div>
+
+									<div class="contact-image">
+										<img class="contact-image" src="Resources\Images\headshot01.jpg" />
+									</div>
+
+									<div class="contact-email">
+										dejohn02@wsc.edu
 									</div>
 								</div>
 							</div>
@@ -166,37 +164,55 @@
 				</div>
 			</div>
 
+        <?php
+        if(isset($_POST['submit'])){
+            $to = "brsmit09@wsc.edu"; // this is your Email address
+            $from = $_POST['email']; // this is the sender's Email address
+            $name = $_POST['name'];
+            $subject = "Form submission From ACM Website";
+            $subject2 = "Copy of your form submission";
+            $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+            $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+            $headers = "From:" . $from;
+            $headers2 = "From:" . $to;
+            mail($to,$subject,$message,$headers);
+            mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+            echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+            // You can also use header('Location: thank_you.php'); to redirect to another page.
+        }
+        ?>
+
 			<div class="col-lg-5 col-md-5 col-sm-12 col-12">
 				<div class="LightBlueRounded h-100">
 					<div class="header-main blue">Get in Touch!</div>
 					<div class="header-secondary">We'd love to hear from you!</div>
-					<form>
-						<div class="mb-4">
-							
-							<label for="exampleInputEmail1" class="form-label">Email address</label>
-							<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-						</div>
-						<div class="row">
-							<div class="mb-4 col-6">
-								<label for="exampleInputPassword1" class="form-label">Email</label>
-								<input type="email" class="form-control" id="exampleInputPassword1">
-							</div>
+                    <form method="post">
+                        <div class="mb-4">
 
-							<div class="mb-4 col-6">
-								<label for="exampleInputPassword1" class="form-label">Phone</label>
-								<input type="text" class="form-control" id="exampleInputPassword1">
-							</div>
-						</div>
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+                        </div>
+                        <div class="row">
+                            <div class="mb-4 col-6">
+                                <label for="Name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="Name" />
+                            </div>
 
-						<div class="mb-4">
-							<label for="exampleFormControlTextarea1" class="form-label">Message</label>
-							<input type ="text" class="form-control fill-field" id="exampleFormControlTextarea1" />
-						</div>
+                            <div class="mb-4 col-6">
+                                <label for="Phone" class="form-label">Phone</label>
+                                <input type="text" class="form-control" id="Phone" />
+                            </div>
+                        </div>
 
-						<div class="row justify-content-center mt-4">
-							<button type="submit" class="btn btn-primary btn-send">Send</button>
-						</div>
-					</form>
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <input type="text" class="form-control fill-field" id="message" />
+                        </div>
+
+                        <div class="row justify-content-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-send">Send</button>
+                        </div>
+                    </form>
 				</div>
 			</div>
 			

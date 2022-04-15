@@ -104,7 +104,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Landingpage\Content\Images\Bowling2022.jpg" />
+									<img class="sidebar-image " src="Resources\Images\logo2.png" />
 								</div>
 							</div>
 
@@ -114,13 +114,13 @@
 								</div>
 
 								<div class="sidebar-content">
-									03/24/22
+									04/14/2022
 									<br />
 									5:00pm
 									<br />
 									Gardner Hall
 									<br />
-									Room 108
+									Room 115
 								</div>
 							</div>
 						</div>
@@ -137,7 +137,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Landingpage\Content\Images\Bowling2022.jpg" />
+									<img class="sidebar-image " src="Resources\Images\logo2.png"" />
 								</div>
 							</div>
 
@@ -147,13 +147,13 @@
 								</div>
 
 								<div class="sidebar-content">
-									03/24/22
+									04/21/2022
 									<br />
 									5:00pm
 									<br />
 									Gardner Hall
 									<br />
-									Room 108
+									Room 115
 								</div>
 							</div>
 						</div>
@@ -170,7 +170,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Landingpage\Content\Images\Bowling2022.jpg" />
+									<img class="sidebar-image " src="Resources\Images\logo2.png" />
 								</div>
 							</div>
 
@@ -180,13 +180,13 @@
 								</div>
 
 								<div class="sidebar-content">
-									03/24/22
+									04/28/2022
 									<br />
 									5:00pm
 									<br />
 									Gardner Hall
 									<br />
-									Room 108
+									Room 115
 								</div>
 							</div>
 						</div>
@@ -203,7 +203,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Landingpage\Content\Images\Bowling2022.jpg" />
+									<img class="sidebar-image " src="Resources\images\logo2.png" />
 								</div>
 							</div>
 
@@ -213,13 +213,13 @@
 								</div>
 
 								<div class="sidebar-content">
-									03/24/22
+									05/06/2022
 									<br />
 									5:00pm
 									<br />
 									Gardner Hall
 									<br />
-									Room 108
+									Room 115
 								</div>
 							</div>
 						</div>
@@ -236,23 +236,23 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Landingpage\Content\Images\Bowling2022.jpg" />
+									<img class="sidebar-image " src="Resources\Images\logo2.png" />
 								</div>
 							</div>
 
 							<div class="col-lg-6 col-md-6 col-12 order-2">
 								<div class="sidebar-title">
-									ACM Meeting
+									Club Fair
 								</div>
 
 								<div class="sidebar-content">
-									03/24/22
+									Aug 2022
 									<br />
-									5:00pm
+									TBD
 									<br />
-									Gardner Hall
+									Frey Conference Center
 									<br />
-									Room 108
+									
 								</div>
 							</div>
 						</div>
@@ -262,11 +262,11 @@
 	</div>
 
 		<script>
-			const event01 = { title: "ACM Meeting 01", timeDate: "03/24/22 5:00pm", location: "Gardner Hall Room 108", content: "In the Fall 2021 semester, we had some really great guest speakers for a few club meetings. Even though the first half of theSpring semester has been pretty relaxed, we have couple exciting guest speakers to look forward to."};
-			const event02 = { title: "ACM Meeting 02", timeDate: "03/24/22 5:00pm", location: "Gardner Hall Room 108", content: "In the Fall 2021 semester, we had some really great guest speakers for a few club meetings. Even though the first half of theSpring semester has been pretty relaxed, we have couple exciting guest speakers to look forward to."};
-			const event03 = { title: "ACM Meeting 03", timeDate: "03/24/22 5:00pm", location: "Gardner Hall Room 108", content: "In the Fall 2021 semester, we had some really great guest speakers for a few club meetings. Even though the first half of theSpring semester has been pretty relaxed, we have couple exciting guest speakers to look forward to."};
-			const event04 = { title: "ACM Meeting 04", timeDate: "03/24/22 5:00pm", location: "Gardner Hall Room 108", content: "In the Fall 2021 semester, we had some really great guest speakers for a few club meetings. Even though the first half of theSpring semester has been pretty relaxed, we have couple exciting guest speakers to look forward to."};
-			const event05 = { title: "ACM Meeting 05", timeDate: "03/24/22 5:00pm", location: "Gardner Hall Room 108", content: "In the Fall 2021 semester, we had some really great guest speakers for a few club meetings. Even though the first half of theSpring semester has been pretty relaxed, we have couple exciting guest speakers to look forward to."};
+			const event01 = { title: "Project Night", timeDate: "04/14/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc:"Resources/Images/arcade.png", content: "Final project night for to work on group projects during club time."};
+			const event02 = { title: "Certificate Ceremony", timeDate: "04/21/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc: "Resources/Images/grouppic.jpg",content: "Final official meeting for ACM. Awards members for their hard word throughout the year."};
+			const event03 = { title: "Study Week", timeDate: "04/28/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc: "Resources/Images/logo2.png", content: "Final meeting for the semester. Time for students to study and ask for help"};
+			const event04 = { title: "Finals Week", timeDate: "05/06/2022", location: "No meetings", imgSrc: "Resources/Images/logo2.png", content: "No meeting during finals. Good luck on finals everyone, and have a great summer!"};
+			const event05 = { title: "Club Fair", timeDate: "08/TBD/2022", location: "Frey Conference Center", imgSrc: "Resources/UpcomingEvents/Content/Images/clubfair.jpg", content: "Start off the semester with an apperance at the WSC club fair!"};
 
 			const events = [event01, event02, event03, event04, event05];
 
@@ -278,11 +278,13 @@
 				var divTimeDate = document.getElementById("overlayTimeDate");
 				var divLocation = document.getElementById("overlayLocation");
 				var divContent = document.getElementById("overlayContent");
+				var divImg = document.getElementById("overlayImg");
 
 				var event = events[eventIndex];
 				divTitle.innerText = event.title;
 				divTimeDate.innerText  = event.timeDate;
 				divLocation.innerText  = event.location;
+				divImg.src = event.imgSrc;
 				divContent.innerText  = event.content;
 				document.getElementById("eventOverlay").style.display = "block";
 			}

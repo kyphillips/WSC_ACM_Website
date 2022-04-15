@@ -46,7 +46,7 @@
 		<div id="eventOverlay" class="popup-overlay" onclick="overlayOff()">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-10 popup-overlay-container">
 				<div class="overlay-image ">
-					<img id="overlayImg" class="overlay-image " src="Resources\Landingpage\Content\Images\Bowling2022.jpg" />
+					<img id="overlayImg" class="overlay-image " src= "Resources\UpcomingEvents\Content\Images\projectnight.jpg" />
 				</div>
 
 				<div id="overlayTitle" class="overlay-title">
@@ -75,29 +75,29 @@
 			<div class="col-lg-12 col-md-12 col-12 event-container">
                 <a class="sidebar-link" href="#" onclick="overlayOn(this);return false;">
                     <div class="event-main-image">
-                        <img id="mainEventImg" class="event-image" src="Resources/UpcomingEvents/Content/Images/Robots.jpg" />
+                        <img id="mainEventImg" class="event-image" src="Resources/UpcomingEvents/Content/Images/projectnight.jpg" />
                         <div id="bigDate" class="event-main-overlay-date long">
-                            Sept 1st
+                            April 14th
                         </div>
                         <div class="event-main-overlay-content">
                             <div class="event-text-container">
                                 <div id="mainEventTitle" class="event-title">
-                                    Game Festival
+                                    Project Night
                                 </div>
                                 <div id="mainEventDate" class="event-info">
-                                    Sept 1st 2019 @ 11am
+                                    April 14th 2022 @5pm
                                 </div>
                                 <div id="mainEventLocation" class="event-info">
-                                    Frey Student Center
+                                    Gardner Hall RM 115
                                 </div>
 
                                 <div id="mainEventContentLong" class="event-content long">
-                                    LONG TEXT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel risus massa. Nulla efficitur lorem at ipsum condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel risus massa. Nulla efficitur lorem at ipsum condimentum.
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel risus massa. Nulla efficitur lorem at ipsum condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel risus massa. Nulla efficitur lorem at ipsum condimentum.
+                                    Throughout the school year, ACM has students get involve with multiple different projects for them to tinker and explore their interests with technology. (This very website is one of those projects!)
+									There is a wide range of projects for the students to explore, we frequently have meetings for students to get in their groups and work on the project they want. We call them project nights. 
                                 </div>
 
                                 <div id="mainEventContent" class="event-content short">
-                                    SHORT TEXT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel risus massa. Nulla efficitur lorem at ipsum condimentum.
+                                    A night to get into our project groups and get some work done on our projects that we work on through out the year. 
                                 </div>
                             </div>
                         </div>
@@ -116,18 +116,18 @@
                 <div class="col-lg-4 col-md-4 col-12 event-container">
                     <a class="sidebar-link" href="#" onclick="overlayOn(this);return false;">
                         <div class="event-image">
-                            <img id="eventImg" class="event-image" src="Resources/UpcomingEvents/Content/Images/Robots.jpg" />
+                            <img id="eventImg" class="event-image" src="Resources/UpcomingEvents/Content/Images/torchceremony.jpg" />
 
                             <div class="event-overlay">
                                 <div class="event-text-container">
                                     <div id="eventTitle" class="event-title">
-                                        Game Festival
+                                        Project Night
                                     </div>
                                     <div id="eventTime" class="event-info">
-                                        Sept 1st 2019 @ 11am
+                                        April 14th @5pm, 2022
                                     </div>
                                     <div id="eventLocation" class="event-info">
-                                        Frey Student Center
+                                        Gardner Hall RM 115
                                     </div>
 
                                     <div id="eventContent" class="event-content">
