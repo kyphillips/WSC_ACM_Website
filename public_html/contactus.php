@@ -2,17 +2,15 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>ACM Landing Page</title>
-
-		<!--misc.css contains miscelanious css that doesn't fit into text, Content, images, etc'-->
-        <link rel="stylesheet" href="Resources/CSS/shared.css" />
-		<link rel="stylesheet" href="Resources/CSS/misc.css">
-		<link rel="stylesheet" href="Resources/CSS/ContactUs.css">
         
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
 
-		<link rel="stylesheet" href="Resources/Landingpage/CSS/LandingVideo/LandingVideo.css">
+		<title>WSC/ACM - Contact Us</title>
 
-		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="CSS/Shared.css" />
+		<link rel="stylesheet" href="CSS/ContactUs.css">
 
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
@@ -24,7 +22,7 @@
 	<body>
 
 		<?php
-			include 'Resources/Shared/PHP/Navbar.php';
+			include 'PHP/Navbar.php';
         ?>
 
 	<div class="row g-0 justify-content-center ">
@@ -47,7 +45,7 @@
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\officer1.jpg" />
+										<img class="contact-image" src="Content/Active/Images/Officers/President.jpg" />
 									</div>
 
 									<div class="contact-email">
@@ -67,7 +65,7 @@
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\officer5.png" />
+                                        <img class="contact-image" src="Content/Active/Images/Officers/VicePresident.png" />
 									</div>
 
 									<div class="contact-email">
@@ -89,7 +87,7 @@
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\officer3.jpg" />
+                                        <img class="contact-image" src="Content/Active/Images/Officers/Secretary.jpg" />
 									</div>
 
 									<div class="contact-email">
@@ -109,7 +107,7 @@
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\officer4.jpg" />
+                                        <img class="contact-image" src="Content/Active/Images/Officers/Treasurer.jpg" />
 									</div>
 
 									<div class="contact-email">
@@ -131,7 +129,7 @@
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\no-pic.png" />
+                                        <img class="contact-image" src="Content/Active/Images/Officers/no-pic.png" />
 									</div>
 
 									<div class="contact-email">
@@ -151,7 +149,7 @@
 									</div>
 
 									<div class="contact-image">
-										<img class="contact-image" src="Resources\Images\headshot01.jpg" />
+                                        <img class="contact-image" src="Content/Active/Images/Officers/Advisor.jpg" />
 									</div>
 
 									<div class="contact-email">

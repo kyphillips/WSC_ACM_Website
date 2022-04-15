@@ -2,23 +2,24 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>ACM Landing Page</title>
+        
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+
+		<title>WSC/ACM - Upcoming Events</title>
 
 		<!--misc.css contains miscelanious css that doesn't fit into text, Content, images, etc'-->
-        <link rel="stylesheet" href="Resources/CSS/shared.css" />
-        <link rel="stylesheet" href="Resources/CSS/misc.css">
-		<link rel="stylesheet" href="Resources/CSS/upcomingevents.css" />
-       
-
-		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
+        <link rel="stylesheet" href="CSS/Shared.css" />
+		<link rel="stylesheet" href="CSS/UpcomingEvents.css" />
+ 
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
 		<!-- Option 1: Bootstrap Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-		<script src="Resources/JS/UpcomingEvents.js" defer></script>
+		<script src="JS/Events/UpcomingEvents.js" defer></script>
 	</head>
 
 	
@@ -26,7 +27,7 @@
 	<body>
 
 		<?php
-			include 'Resources/Shared/PHP/Navbar.php';
+			include 'PHP/Navbar.php';
         ?>
 		
 		<div class="row justify-content-center">

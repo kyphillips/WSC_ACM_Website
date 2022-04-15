@@ -2,32 +2,28 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>ACM Landing Page</title>
 
-		<!--misc.css contains miscelanious css that doesn't fit into text, Content, images, etc'-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <link rel="stylesheet" href="Resources/CSS/shared.css" />
-		<link rel="stylesheet" href="Resources/CSS/misc.css">
-		<link rel="stylesheet" href="Resources/CSS/home.css" />
-        
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
 
-        
+		<title>WSC/ACM - Home Page</title>
+
+        <link rel="stylesheet" href="CSS/Shared.css" />
+		<link rel="stylesheet" href="CSS/Home.css" />
 
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
 		<!-- Option 1: Bootstrap Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
-
 	</head>
 
 	<body>
 
 		<?php
-			include 'Resources/Shared/PHP/Navbar.php';
-		?>
+			include 'PHP/Navbar.php';
+        ?>
 		
 		
 		<div class="row justify-content-center col-12 ">
@@ -41,7 +37,8 @@
                     <div class="row my-3">
                         <div class="col-lg-4 col-md-4 col-12 order-1">
                             <div class="zigzag-image">
-                                <img class="zigzag-image" src="Resources\Landingpage\Content\Images\CompProgram.jpg" />
+
+                                <img class="zigzag-image" src="Content\Active\Images\Events\CompProgram.jpg" />
                             </div>
                         </div>
 
@@ -56,7 +53,7 @@
                     <div class="row my-4  ">
                         <div class="col-lg-4 col-md-4 col-12 order-lg-2 order-md-2 order-1">
                             <div class="zigzag-image">
-                                <img class="zigzag-image" src="Resources\Landingpage\Content\Images\Bowling2022.jpg" />
+                                <img class="zigzag-image" src="Content/Active/Images/PastEvents/BowlingNight2021/Bowling01.jpg" />
                             </div>
                         </div>
 
@@ -71,7 +68,7 @@
                     <div class="row my-3  ">
                         <div class="col-lg-4 col-md-4 col-12 order-1">
                             <div class="zigzag-image">
-                                <img class="zigzag-image" src="Resources\Landingpage\Content\Images\audience.jpg" />
+                                <img class="zigzag-image" src="Content\Active\Images\Events\Audience.jpg" />
                             </div>
                         </div>
 
@@ -104,7 +101,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Images\logo2.png" />
+                                    <img class="sidebar-image " src="Content/Active/Images/Logos/DiamondLogoBG.png" />
 								</div>
 							</div>
 
@@ -137,7 +134,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Images\logo2.png"" />
+                                    <img class="sidebar-image " src="Content/Active/Images/Logos/DiamondLogoBG.png" />
 								</div>
 							</div>
 
@@ -170,7 +167,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Images\logo2.png" />
+                                    <img class="sidebar-image " src="Content/Active/Images/Logos/DiamondLogoBG.png" />
 								</div>
 							</div>
 
@@ -203,7 +200,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\images\logo2.png" />
+                                    <img class="sidebar-image " src="Content/Active/Images/Logos/DiamondLogoBG.png" />
 								</div>
 							</div>
 
@@ -236,7 +233,7 @@
 								</div>
 
 								<div class="sidebar-image">
-									<img class="sidebar-image " src="Resources\Images\logo2.png" />
+                                    <img class="sidebar-image " src="Content/Active/Images/Events/ClubFair.jpg" />
 								</div>
 							</div>
 
@@ -262,11 +259,11 @@
 	</div>
 
 		<script>
-			const event01 = { title: "Project Night", timeDate: "04/14/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc:"Resources/Images/arcade.png", content: "Final project night for to work on group projects during club time."};
-			const event02 = { title: "Certificate Ceremony", timeDate: "04/21/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc: "Resources/Images/grouppic.jpg",content: "Final official meeting for ACM. Awards members for their hard word throughout the year."};
-			const event03 = { title: "Study Week", timeDate: "04/28/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc: "Resources/Images/logo2.png", content: "Final meeting for the semester. Time for students to study and ask for help"};
-			const event04 = { title: "Finals Week", timeDate: "05/06/2022", location: "No meetings", imgSrc: "Resources/Images/logo2.png", content: "No meeting during finals. Good luck on finals everyone, and have a great summer!"};
-			const event05 = { title: "Club Fair", timeDate: "08/TBD/2022", location: "Frey Conference Center", imgSrc: "Resources/UpcomingEvents/Content/Images/clubfair.jpg", content: "Start off the semester with an apperance at the WSC club fair!"};
+			const event01 = { title: "Project Night", timeDate: "04/14/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc:"Content/Active/Images/Events/Arcade.png", content: "Final project night for to work on group projects during club time."};
+			const event02 = { title: "Certificate Ceremony", timeDate: "04/21/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc: "Content/Active/Images/Events/GroupIC.jpg",content: "Final official meeting for ACM. Awards members for their hard word throughout the year."};
+			const event03 = { title: "Study Week", timeDate: "04/28/2022 5:00pm", location: "Gardner Hall Room 115", imgSrc: "Content/Active/Images/Logos/DiamondLogoBG.png", content: "Final meeting for the semester. Time for students to study and ask for help"};
+			const event04 = { title: "Finals Week", timeDate: "05/06/2022", location: "No meetings", imgSrc: "Content/Active/Images/Logos/DiamondLogoBG.png", content: "No meeting during finals. Good luck on finals everyone, and have a great summer!"};
+			const event05 = { title: "Club Fair", timeDate: "08/TBD/2022", location: "Frey Conference Center", imgSrc: "Content/Active/Images/Events/ClubFair.jpg", content: "Start off the semester with an apperance at the WSC club fair!"};
 
 			const events = [event01, event02, event03, event04, event05];
 
@@ -298,7 +295,7 @@
 		<div id="eventOverlay" class="popup-overlay" onclick="overlayOff()">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-10 popup-overlay-container">
 				<div class="overlay-image ">
-					<img id="overlayImg" class="overlay-image " src="Resources\Landingpage\Content\Images\Bowling2022.jpg" />
+					<img id="overlayImg" class="overlay-image " src="#" />
 				</div>
 
 				<div id="overlayTitle" class="overlay-title">
