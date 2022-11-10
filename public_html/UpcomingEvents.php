@@ -86,19 +86,19 @@
                                     Project Night
                                 </div>
                                 <div id="mainEventDate" class="event-info">
-                                    April 14th 2022 @5pm
+                                    November 17th 2022 @5pm
                                 </div>
                                 <div id="mainEventLocation" class="event-info">
                                     Gardner Hall RM 115
                                 </div>
 
                                 <div id="mainEventContentLong" class="event-content long">
-                                    Throughout the school year, ACM has students get involve with multiple different projects for them to tinker and explore their interests with technology. (This very website is one of those projects!)
-									There is a wide range of projects for the students to explore, we frequently have meetings for students to get in their groups and work on the project they want. We call them project nights. 
+                                Due to a change of schedule with the Joe Friesen from Five-Nines, our guest speaker event is being postponed.
+                                    Instead we will do attempt in a hacking competition within the club.
                                 </div>
 
                                 <div id="mainEventContent" class="event-content short">
-                                    A night to get into our project groups and get some work done on our projects that we work on through out the year. 
+                                    POssible Hack-a-thon night! 
                                 </div>
                             </div>
                         </div>

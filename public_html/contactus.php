@@ -125,9 +125,11 @@
 									</div>
 
 									<div class="contact-name">
-										Open Position
+										Kale Wetjen
 									</div>
-
+									<div class="contact-email">
+										kawetj01@wsc.edu
+									</div>
 									<div class="contact-image">
                                         <img class="contact-image" src="Content/Active/Images/Officers/no-pic.png" />
 									</div>
