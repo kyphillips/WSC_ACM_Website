@@ -44,8 +44,8 @@
 
                         <div class="col-lg-8 col-md-8 col-12 order-2 align-self-center justify-content-center ">
                             <div class="zigzag-content">
-                                In Feburary, for the first time in ACM we had some members compete in the Hash Code programming competition. While the team wasnt able to finish
-						within the time, it was still a great experience and they would like to do it again in the future.
+                                ACM kicked off the semester with a game night open to the public. We had multiple game consoles up and running.
+								Most popular was Super Smash Brothers. Pictured is a group playing the very popular board game, Secret Hitler. 
                             </div>
                         </div>
                     </div>
